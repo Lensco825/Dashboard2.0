@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Lobster&family=Lora:ital@0;1&family=Mulish&family=Poiret+One&family=Poppins:wght@300;400&family=Red+Hat+Display:wght@300;400&family=Source+Sans+Pro&family=Tilt+Neon&family=Unbounded&display=swap');
+
+:root {
+    --black: #1E1E1E;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'inter', sans-serif;
+    display: grid;
+    grid-template-columns: 13rem auto;
+}
+
+.navigation {
+    height: 100%;
+    color: white;
+    padding: 5px;
+    background-color: black;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.profile > img {
+    border-radius: 50%;
+    width: 34px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionIcon {
+
+    font-size: 45px
+}
+
+
+
+.announcments {
+    background-color: #DC2A2A;
+    width: 500px;
+    height: 125px;
+    border-radius: 10px;
+    display: grid;
+    padding: 5px;
+    color: white;
+
+}
+
+.person > img {
+    width: 30px;
+    border-radius: 50%
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    height: 25px;
+}
+
+.stats {
+    width: 309px;
+    height: 139px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+
+.stat {
+    display: grid;
+    place-items: center;
+    width: 105%;
+}
+
+.stat > h1 {
+    display: flex;
+    align-items: center;
+}
+
+.stat:nth-child(1) > h1 > ion-icon {
+    color: aquamarine;
+}
+
+.stat:nth-child(2) > h1 > ion-icon {
+    font-size: 40px;
+    color: red;
+}
+
+.stat:nth-child(3) > h1 > ion-icon {
+    color: yellow;
+}
+
+.tasks {
+    background-color: #FFD4A3;
+    width: 177px;
+    height: 177px;
+    border-radius: 5px;
+}
+
+
+.taskContainer {
+    height: 120px;
+    display: grid;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+}
+
+.messages {
+    background-color: #F5CAC3;
+    width: 120px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.messageNav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 15px;
+    font-size: 10px;
+
+}
+
+.messageNav > ion-icon {
+    font-size: 30px;
+}
+
+.upcoming {
+    width: 187px;
+    height: 347px;
+    border-radius: 10px;
+}
+
+.upcoming > img {
+    width: 187px;
+    height: 347px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: inherit;
+}
+
+.upcomingInfo {
+    color: white;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.06%, #1E1E1E 100%);
+}
+
+.info1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.info1 > ion-icon {
+    font-size: 40px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: solid 1.5px;
+    
+}
